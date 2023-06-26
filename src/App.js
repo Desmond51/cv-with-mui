@@ -6,7 +6,14 @@ import ContentPage from './ContentPage';
 function App() {
   return (
     <Container>
-      <Grid container>
+
+      <Grid 
+      container
+      spacing={0}
+      alignItems="center"
+      justifyContent="center"
+  
+      >
         <Grid item lg={3} >        
           <SideBar />
         </Grid>
@@ -16,7 +23,8 @@ function App() {
         </Grid>
 
       </Grid>
-    </Container>
+      </Container>
+
   );
 }
 

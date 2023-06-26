@@ -5,7 +5,7 @@ import React from 'react'
 export default function ContentPage() {
   return (
     <container>
-      <Typography  marginY={3} bgcolor={'#1b033E'} width={'100%'}>..</Typography>
+      <Typography  marginY={3} bgcolor={'#1b033E'} paddingLeft={2} width={570}>..</Typography>
       <div>
       <Typography fontSize={30} align='left' > Tekum Desmond Teko</Typography>
       <Typography fontSize={16} align='left' marginBottom={3}>Software Developer</Typography>
@@ -85,7 +85,7 @@ export default function ContentPage() {
       </Typography>
       </Grid>
       </Grid>
-      <Typography marginTop={4} bgcolor={'#1b033E'} width={'100%'}>..</Typography>
+      <Typography marginTop={4} paddingLeft={2} width={570} bgcolor={'#1b033E'} >..</Typography>
     </container>
   )
 }

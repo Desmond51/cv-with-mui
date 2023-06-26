@@ -9,7 +9,7 @@ import RemoveFromQueueIcon from '@mui/icons-material/RemoveFromQueue';
 export default function SideBar() {
 
   return (
-     <Container sx={{}}>
+     <Container >
       <div>
       <Avatar sx={{ bgcolor: '#f8f0EA', padding:6, marginLeft:5 }}
        alt="Desmond Teko" src="./public/me.jpeg" />
